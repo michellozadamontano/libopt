@@ -1,0 +1,46 @@
+/*.img-flag{
+    height: 50px;
+}
+.fondoblanco{
+    margin-top:4em;
+    padding: 4em;
+    background-color: white;
+}
+.ui-datepicker-header{color:#2b3643}
+.ui-datepicker-header,.ui-widget-header{background:#2b3643;border:#2b3643;}
+
+.iconover{
+    color : #666 !important;
+}
+*/
+
+.iconoaction i, .iconoaction{
+    font-size: 1.5em;
+    cursor:pointer;
+    margin:0.1em;
+    }
+
+
+
+
+
+.iconoduplicar{
+    color: #6fdb70 !important;
+}
+.iconoborrar{
+    color : #f56e6e !important;
+}
+.iconoeditar{
+    color : #62a7fa !important;
+}
+.iconoaprobar{ 
+    color : orange !important;
+}
+.iconodesaprobar{
+    color : orange !important;
+}
+
+.page-header.navbar .page-logo .logo-default {
+    margin: 0px !important;
+    height: 3.5em;
+}

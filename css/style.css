@@ -1,0 +1,120 @@
+table.print-friendly {
+    page-break-before:always;
+    page-break-after: always;
+    font-size: large;
+}
+table.print-friendly tr{
+    page-break-inside: avoid;
+}
+.ms-container{
+    width: 100% !important;
+}
+
+.titulopt{
+    background: #ccc;
+    padding: 0.4em;
+}
+.timepicker{
+    width: 100px;
+}
+.date-width{
+    width: 150px;
+}
+
+.bodypt{
+    min-height: 100px;width: 100%;position: relative;
+    padding:0.4em;
+}
+
+#header{
+    width: 100%;
+    height: 140px;
+   
+}
+.custom-header{
+    color: whitesmoke;
+    background: black;
+    padding: 3px;
+}
+#logo{
+    margin-top: 32px;
+    margin-left: 20px;
+    float: left;
+    position: relative;
+    height: 70px;   
+    font-size: 26px;
+}
+#cart_summary{
+    margin-top: 36px;   
+    float: right;
+    position: relative;
+    height: 70px;   
+    width: 360px;      
+    text-align: right;
+    line-height: 2.4em;
+}
+.overflow{
+    overflow: hidden;
+}
+#add_to_cart_box{
+    text-align: center;
+    width: 300px;
+    float: right;
+    position: relative;
+    padding: 12px;
+    border-radius: 7px;
+    background-color: #c0c0c0;
+}
+.cart_qty
+{
+    width: 50px;
+}
+.dropdown-menu {
+    background-clip: padding-box;
+    background-color: lightcyan;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    float: left;
+    left: 0;
+    list-style: none outside none;
+    margin: 2px 0 0;
+    min-width: 160px;
+    padding: 5px 0;
+    position: absolute;
+    top: 100%;
+    z-index: 1000;
+}
+p
+{
+    font-size: 0.9em !important;
+    margin: 0px !important;
+    text-align: inherit !important;
+
+}
+.mytable
+{    border:1px solid black;
+
+}
+.mytable th, .mytable td
+{
+   border:1px solid black;
+}
+.aprobado
+{
+    float: right;
+}
+.col-md-2
+{
+    margin:0px !important;
+}
+/*Aqui voy a sobrescribir algunas funcionalidades de bootstrap*/
+.panel-body {
+    padding: 2px !important;
+}
+
+
+
+
+

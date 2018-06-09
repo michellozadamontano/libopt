@@ -1,0 +1,32 @@
+<!-- MAIN CONTENT SECTION  _____________________________________________-->
+<section id="content" role="main">
+    <div class="wrapper">
+
+        <h2 class="dentrorow"><?php echo $button ?></h2>
+        <form action="" method="post">
+
+            <div class="form-group col-lg-4 col-md-4 col-sm-8 col-xs-12 col-lg-offset-4 col-md-offset-4 col-sm-offset-2">
+                <label>Correo </label>
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                    <input type="text" class="form-control" name="correo" id="correo" ng-model="correo" placeholder="Correo" value="" />
+                </div>
+            </div>
+            <div class="form-group col-lg-4 col-md-4 col-sm-8 col-xs-12 col-lg-offset-4 col-md-offset-4 col-sm-offset-2">
+                <label>Password</label>
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                    <input type="password" class="form-control" name="password" id="password" ng-model="password" placeholder="Password" value="" />
+                </div>
+            </div>
+            <div class="form-group col-lg-4 col-md-4 col-sm-8 col-xs-12 col-lg-offset-4 col-md-offset-4 col-sm-offset-2">
+                <input type="hidden" name="id" value="" />
+                <button type="submit" class="btn btn-default"></button>
+                <a href="" class="btn btn-default">Cancelar</a>
+            </div>
+
+
+        </form>
+
+    </div>
+</section>

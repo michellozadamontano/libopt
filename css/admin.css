@@ -1,0 +1,33 @@
+body{
+    font-family: arial; 
+    font-size: 12px;
+}
+#container{
+    width: 1000px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    font-size: 24px;
+    margin-bottom: 42px
+}
+h2{
+    font-size: 18px;
+}
+#leftside{
+    width: 700px;
+    float: left;
+    position: relative;
+    
+}
+#rightside{
+    width: 300px;
+    float: left;
+    position: relative;
+    
+}
+li{
+    margin-bottom: 12px;
+}
+
